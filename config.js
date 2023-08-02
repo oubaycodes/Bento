@@ -13,13 +13,13 @@ const CONFIG = {
   // General
   name: "oub",
   imageBackground: false,
-  openInNewTab: true,
-  twelveHourFormat: false,
+  openInNewTab: false,
+  twelveHourFormat: true,
 
   // Greetings
-  greetingMorning: "Good morning!",
-  greetingAfternoon: "Good afternoon,",
-  greetingEvening: "Good evening,",
+  greetingMorning: "How the fuck are you awake! ",
+  greetingAfternoon: "Yo dude, just chilling?? ",
+  greetingEvening: "A relaxing time huh? ",
   greetingNight: "Go to Sleep!",
 
   // Layout
@@ -61,28 +61,28 @@ const CONFIG = {
       id: "2",
       name: "Mail",
       icon: "mail",
-      link: "https://mail.protonmail.com/",
+      link: "https://gmail.com",
     },
+    // {
+    //   id: "3",
+    //   name: "Todoist",
+    //   icon: "trello",
+    //   link: "https://todoist.com",
+    // },
+    // {
+    //   id: "4",
+    //   name: "Calendar",
+    //   icon: "calendar",
+    //   link: "https://calendar.google.com/calendar/r",
+    // },
     {
       id: "3",
-      name: "Todoist",
-      icon: "trello",
-      link: "https://todoist.com",
-    },
-    {
-      id: "4",
-      name: "Calendar",
-      icon: "calendar",
-      link: "https://calendar.google.com/calendar/r",
-    },
-    {
-      id: "5",
       name: "Reddit",
       icon: "smile",
       link: "https://reddit.com",
     },
     {
-      id: "6",
+      id: "4",
       name: "Youtube",
       icon: "youtube",
       link: "https://youtube.com",
@@ -165,8 +165,8 @@ const CONFIG = {
           link: "https://www.linkedin.com",
         },
         {
-          name: "Dribbble",
-          link: "https://www.dribbble.com",
+          name: "Sflix",
+          link: "https://sflix.to/",
         },
         {
           name: "Trello",
